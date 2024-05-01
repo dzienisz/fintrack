@@ -1,0 +1,1069 @@
+repo_name: dzienisz/fintrack
+report_id: 8be1c4179d3496eb2a548972f29f8265
+version: 0.1
+repo_type: Public
+timestamp: '2024-05-01T21:08:08+00:00'
+requested_by: czuchrak
+provider: github
+branch: main
+detected_tools_count: 78
+tools:
+- name: C#
+  description: Simple, general-purpose, object-oriented programming language for the
+    .NET platform
+  website_url: http://csharp.net
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1015/1200px-C_Sharp_wordmark.svg.png
+  detection_source_url: https://github.com/dzienisz/fintrack
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/dzienisz/fintrack
+  detection_source: Repo Metadata
+- name: TypeScript
+  description: A superset of JavaScript that compiles to clean JavaScript output
+  website_url: http://www.typescriptlang.org
+  version: 3.9.10
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/dzienisz/fintrack/blob/main/frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: Krzysztof Czuchra
+  last_updated_on: 2022-11-17 17:12:19.000000000 Z
+- name: ".NET"
+  description: A free, cross-platform, open source developer platform for building
+    many different types of applications
+  website_url: http://www.microsoft.com/net/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1014/IoPy1dce_400x400.png
+  detection_source_url: https://github.com/dzienisz/fintrack/blob/main/backend/Fintrack.WebApi/Fintrack.WebApi.csproj
+  detection_source: backend/Fintrack.WebApi/Fintrack.WebApi.csproj
+  last_updated_by: Krzysztof Czuchra
+  last_updated_on: 2022-11-17 17:12:19.000000000 Z
+- name: ".NET Core"
+  description: An Open Source, General-Purpose Development Platform Maintained by
+    Microsoft and the .NET Community
+  website_url: https://docs.microsoft.com/en-us/dotnet/core/
+  version: '6.0'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/6403/default_91fc1f0ee315262794273aa1387eaf8fed8436e6.png
+  detection_source_url: https://github.com/dzienisz/fintrack/blob/main/backend/Fintrack.App/Fintrack.App.csproj
+  detection_source: backend/Fintrack.App/Fintrack.App.csproj
+  last_updated_by: Krzysztof Czuchra
+  last_updated_on: 2022-11-17 17:12:19.000000000 Z
+- name: ASP.NET Core
+  description: A cross-platform .NET framework for building modern cloud-based web
+    applications on Windows, Mac, or Linux
+  website_url: docs.microsoft.com/en-us/aspnet/core/
+  version: '6.0'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/11331/asp.net-core.png
+  detection_source_url: https://github.com/dzienisz/fintrack/blob/main/backend/Fintrack.App/Fintrack.App.csproj
+  detection_source: backend/Fintrack.App/Fintrack.App.csproj
+  last_updated_by: Krzysztof Czuchra
+  last_updated_on: 2022-11-17 17:12:19.000000000 Z
+- name: React
+  description: A JavaScript library for building user interfaces
+  website_url: https://reactjs.org/
+  version: 17.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
+  detection_source_url: https://github.com/dzienisz/fintrack/blob/main/frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: Krzysztof Czuchra
+  last_updated_on: 2022-11-17 17:12:19.000000000 Z
+- name: React Router
+  description: A complete routing solution for React.js
+  website_url: https://github.com/rackt/react-router
+  version: 6.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: JavaScript Framework Components
+  image_url: https://img.stackshare.io/service/3350/8261421.png
+  detection_source_url: https://github.com/dzienisz/fintrack/blob/main/frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: Krzysztof Czuchra
+  last_updated_on: 2022-11-17 17:12:19.000000000 Z
+- name: Redux
+  description: Predictable state container for JavaScript apps
+  website_url: https://redux.js.org/
+  version: 4.2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: State Management Library
+  image_url: https://img.stackshare.io/service/4074/13142323.png
+  detection_source_url: https://github.com/dzienisz/fintrack/blob/main/frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: Krzysztof Czuchra
+  last_updated_on: 2022-11-17 17:12:19.000000000 Z
+- name: Entity Framework
+  description: An object-relational mapper that enables .NET developers to work with
+    relational data
+  website_url: https://docs.microsoft.com/en-us/aspnet/entity-framework
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Object Relational Mapper (ORM)
+  image_url: https://img.stackshare.io/service/3251/no-img-open-source.png
+  detection_source_url: https://github.com/dzienisz/fintrack/blob/main/backend/Fintrack.Database/Fintrack.Database.csproj
+  detection_source: backend/Fintrack.Database/Fintrack.Database.csproj
+  last_updated_by: Krzysztof Czuchra
+  last_updated_on: 2022-11-17 17:12:19.000000000 Z
+- name: Entity Framework Core
+  description: Lightweight and cross-platform version of the popular Entity Framework
+  website_url: https://docs.microsoft.com/en-us/ef/core/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Object Relational Mapper (ORM)
+  image_url: https://img.stackshare.io/service/10254/no-img-open-source.png
+  detection_source_url: https://github.com/dzienisz/fintrack/blob/main/backend/Fintrack.Database/Fintrack.Database.csproj
+  detection_source: backend/Fintrack.Database/Fintrack.Database.csproj
+  last_updated_by: Krzysztof Czuchra
+  last_updated_on: 2022-11-17 17:12:19.000000000 Z
+- name: Firebase
+  description: The Realtime App Platform
+  website_url: https://firebase.google.com/
+  open_source: false
+  hosted_saas: true
+  category: Application Hosting
+  sub_category: Realtime Backend / API
+  image_url: https://img.stackshare.io/service/116/cZLxNFZS.jpg
+  detection_source_url: https://github.com/dzienisz/fintrack/blob/main/frontend/package.json
+  detection_source: frontend/package.json
+  last_updated_by: Krzysztof Czuchra
+  last_updated_on: 2022-11-17 17:12:19.000000000 Z
+- name: MediatR
+  description: In-process messaging with no dependencies
+  website_url: https://github.com/jbogard/MediatR
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Message Queue
+  image_url: https://img.stackshare.io/service/20925/default_6fd5a642fb778d0aeef31d8d6cf9b58b8f20da27.png
+  detection_source_url: https://github.com/dzienisz/fintrack/blob/main/backend/Fintrack.App/Fintrack.App.csproj
+  detection_source: backend/Fintrack.App/Fintrack.App.csproj
+  last_updated_by: Krzysztof Czuchra
+  last_updated_on: 2022-11-17 17:12:19.000000000 Z
+- name: Microsoft SQL Server
+  description: A relational database management system developed by Microsoft
+  website_url: http://microsoft.com/sqlserver
+  open_source: false
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1027/sql_server.png
+  detection_source_url: https://github.com/dzienisz/fintrack/blob/main/backend/Fintrack.Database/Fintrack.Database.csproj
+  detection_source: backend/Fintrack.Database/Fintrack.Database.csproj
+  last_updated_by: Krzysztof Czuchra
+  last_updated_on: 2022-11-17 17:12:19.000000000 Z
+- name: Babel
+  description: Use next generation JavaScript, today.
+  website_url: http://babeljs.io/
+  version: 7.18.13
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JavaScript Compilers
+  image_url: https://img.stackshare.io/service/2739/-1wfGjNw.png
+  detection_source_url: https://github.com/dzienisz/fintrack/blob/main/frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: Krzysztof Czuchra
+  last_updated_on: 2022-11-17 17:12:19.000000000 Z
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/dzienisz/fintrack/blob/main/frontend/package.json
+  detection_source: frontend/package.json
+  last_updated_by: Krzysztof Czuchra
+  last_updated_on: 2022-11-17 17:12:19.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/dzienisz/fintrack
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/dzienisz/fintrack/blob/main/.github/workflows/codeql.yml
+  detection_source: ".github/workflows/codeql.yml"
+  last_updated_by: Krzysztof Czuchra
+  last_updated_on: 2022-11-17 17:32:24.000000000 Z
+- name: Moq
+  description: The most popular and friendly mocking framework for .NET
+  website_url: https://github.com/Moq/moq4
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/1628/1434934.png
+  detection_source_url: https://github.com/dzienisz/fintrack/blob/main/backend/Fintrack.Tests/Fintrack.Tests.csproj
+  detection_source: backend/Fintrack.Tests/Fintrack.Tests.csproj
+  last_updated_by: Krzysztof Czuchra
+  last_updated_on: 2022-11-17 17:12:19.000000000 Z
+- name: NUnit
+  description: An open-source unit testing framework
+  website_url: http://www.nunit.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/2371/jZ6MYx5Y_400x400.png
+  detection_source_url: https://github.com/dzienisz/fintrack/blob/main/backend/Fintrack.Tests/Fintrack.Tests.csproj
+  detection_source: backend/Fintrack.Tests/Fintrack.Tests.csproj
+  last_updated_by: Krzysztof Czuchra
+  last_updated_on: 2022-11-17 17:12:19.000000000 Z
+- name: NuGet
+  description: The package manager for .NET
+  website_url: https://www.nuget.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/2637/6I3oEOP4_400x400.jpg
+  detection_source_url: https://github.com/dzienisz/fintrack/blob/main/backend/Fintrack.WebApi/Fintrack.WebApi.csproj
+  detection_source: backend/Fintrack.WebApi/Fintrack.WebApi.csproj
+  last_updated_by: Krzysztof Czuchra
+  last_updated_on: 2022-11-17 17:12:19.000000000 Z
+- name: Prettier
+  description: Prettier is an opinionated code formatter.
+  website_url: https://prettier.io/
+  version: 2.7.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg
+  detection_source_url: https://github.com/dzienisz/fintrack/blob/main/frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: Krzysztof Czuchra
+  last_updated_on: 2022-11-17 17:12:19.000000000 Z
+- name: Serilog
+  description: A portable and structured logging framework to record diagnostic logs
+  website_url: http://serilog.net/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Log Management
+  image_url: https://img.stackshare.io/service/4283/5691010.png
+  detection_source_url: https://github.com/dzienisz/fintrack/blob/main/backend/Fintrack.WebApi/Fintrack.WebApi.csproj
+  detection_source: backend/Fintrack.WebApi/Fintrack.WebApi.csproj
+  last_updated_by: Krzysztof Czuchra
+  last_updated_on: 2022-11-17 17:12:19.000000000 Z
+- name: Visual Studio
+  description: State-of-the-art tools and services that you can use to create great
+    apps for devices, the cloud, and everything in between.
+  website_url: http://msdn.microsoft.com/en-us/vstudio/aa718325.aspx
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Integrated Development Environment
+  image_url: https://img.stackshare.io/service/1451/SR2hUhQN.png
+  detection_source_url: https://github.com/dzienisz/fintrack/blob/main/backend/Fintrack.sln
+  detection_source: backend/Fintrack.sln
+  last_updated_by: Krzysztof Czuchra
+  last_updated_on: 2022-11-17 17:12:19.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/dzienisz/fintrack/blob/main/frontend/package.json
+  detection_source: frontend/package.json
+  last_updated_by: Krzysztof Czuchra
+  last_updated_on: 2022-11-17 17:12:19.000000000 Z
+- name: FluentValidation
+  description: A popular .NET validation library
+  website_url: https://fluentvalidation.net/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/service/9673/default_debf406cb448b8b966a6f0bda56f1617cad2a5dc.png
+  detection_source_url: https://github.com/dzienisz/fintrack/blob/main/backend/Fintrack.App/Fintrack.App.csproj
+  detection_source: backend/Fintrack.App/Fintrack.App.csproj
+  last_updated_by: Krzysztof Czuchra
+  last_updated_on: 2022-11-17 17:12:19.000000000 Z
+- name: Formik
+  description: Build forms in React
+  website_url: https://jaredpalmer.com/formik/
+  version: 2.2.9
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Web Forms
+  image_url: https://img.stackshare.io/service/8846/preview.png
+  detection_source_url: https://github.com/dzienisz/fintrack/blob/main/frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: Krzysztof Czuchra
+  last_updated_on: 2022-11-17 17:12:19.000000000 Z
+- name: JSON Web Token
+  description: A JSON-based open standard for creating access tokens
+  website_url: http://jwt.io/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: User Management and Authentication
+  image_url: https://img.stackshare.io/service/6417/jwt-icon.png
+  detection_source_url: https://github.com/dzienisz/fintrack/blob/main/backend/Fintrack.WebApi/Fintrack.WebApi.csproj
+  detection_source: backend/Fintrack.WebApi/Fintrack.WebApi.csproj
+  last_updated_by: Krzysztof Czuchra
+  last_updated_on: 2022-11-17 17:12:19.000000000 Z
+- name: Lodash
+  description: A JavaScript utility library
+  website_url: https://lodash.com
+  version: 4.17.21
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/2438/lodash.png
+  detection_source_url: https://github.com/dzienisz/fintrack/blob/main/frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: Krzysztof Czuchra
+  last_updated_on: 2022-11-17 17:12:19.000000000 Z
+- name: MailKit
+  description: A cross-platform .NET library for IMAP, POP3, and SMTP
+  website_url: https://github.com/jstedfast/MailKit
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Communications
+  sub_category: Email API
+  image_url: https://img.stackshare.io/service/7095/no-img-open-source.png
+  detection_source_url: https://github.com/dzienisz/fintrack/blob/main/backend/Fintrack.App/Fintrack.App.csproj
+  detection_source: backend/Fintrack.App/Fintrack.App.csproj
+  last_updated_by: Krzysztof Czuchra
+  last_updated_on: 2022-11-17 17:12:19.000000000 Z
+- name: Moment.js
+  description: A JavaScript date library for parsing, validating, manipulating, and
+    formatting dates
+  website_url: http://momentjs.com/
+  version: 2.29.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/3643/Xrtdc94q_400x400.png
+  detection_source_url: https://github.com/dzienisz/fintrack/blob/main/frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: Krzysztof Czuchra
+  last_updated_on: 2022-11-17 17:12:19.000000000 Z
+- name: axios
+  description: Promise based HTTP client for the browser and node.js
+  website_url: https://github.com/mzabriskie/axios
+  version: 0.27.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/dzienisz/fintrack/blob/main/frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: Krzysztof Czuchra
+  last_updated_on: 2022-11-17 17:12:19.000000000 Z
+- name: date-fns
+  description: Modern JavaScript date utility library
+  website_url: https://date-fns.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/10865/default_5551fb8853689f607a2bc0d5a09355d5a3d52bf0.png
+  detection_source_url: https://github.com/dzienisz/fintrack/blob/main/frontend/package.json
+  detection_source: frontend/package.json
+  last_updated_by: Krzysztof Czuchra
+  last_updated_on: 2022-11-17 17:12:19.000000000 Z
+- name: yup
+  website_url: https://github.com/jquense/yup
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/10756/339286.png
+  detection_source_url: https://github.com/dzienisz/fintrack/blob/main/frontend/package.json
+  detection_source: frontend/package.json
+  last_updated_by: Krzysztof Czuchra
+  last_updated_on: 2022-11-17 17:12:19.000000000 Z
+- name: "@babel/core"
+  description: Babel compiler core
+  package_url: https://www.npmjs.com/@babel/core
+  version: 7.18.13
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15810/default_004658cda9b38934f2871435e9dc15608c86e8be.png
+  detection_source_url: https://github.com/dzienisz/fintrack/blob/main/frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: Krzysztof Czuchra
+  last_updated_on: 2022-11-17 17:12:19.000000000 Z
+- name: "@emotion/styled"
+  description: Styled API for emotion
+  package_url: https://www.npmjs.com/@emotion/styled
+  version: 11.10.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16702/default_4b738bf1758d38dddd276589bbea47fca5a990df.png
+  detection_source_url: https://github.com/dzienisz/fintrack/blob/main/frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: Krzysztof Czuchra
+  last_updated_on: 2022-11-17 17:12:19.000000000 Z
+- name: "@types/react"
+  description: TypeScript definitions for React
+  package_url: https://www.npmjs.com/@types/react
+  version: 17.0.49
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15894/default_1d65e37e65b7f80761374f0202776043277d505d.png
+  detection_source_url: https://github.com/dzienisz/fintrack/blob/main/frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: Krzysztof Czuchra
+  last_updated_on: 2022-11-17 17:12:19.000000000 Z
+- name: "@types/react-dom"
+  description: TypeScript definitions for React
+  package_url: https://www.npmjs.com/@types/react-dom
+  version: 17.0.17
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15946/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
+  detection_source_url: https://github.com/dzienisz/fintrack/blob/main/frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: Krzysztof Czuchra
+  last_updated_on: 2022-11-17 17:12:19.000000000 Z
+- name: ajv
+  description: Another JSON Schema Validator
+  package_url: https://www.npmjs.com/ajv
+  version: 6.12.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16186/default_1f3a2fc7d882e29a43394ecdf491b8989ea3f0fa.png
+  detection_source_url: https://github.com/dzienisz/fintrack/blob/main/frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: Krzysztof Czuchra
+  last_updated_on: 2022-11-17 17:12:19.000000000 Z
+- name: cross-env
+  description: Run scripts that set and use environment variables across platforms
+  package_url: https://www.npmjs.com/cross-env
+  version: 5.2.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15828/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/dzienisz/fintrack/blob/main/frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: Krzysztof Czuchra
+  last_updated_on: 2022-11-17 17:12:19.000000000 Z
+- name: eslint-config-airbnb
+  description: Airbnb's ESLint config, following our styleguide
+  package_url: https://www.npmjs.com/eslint-config-airbnb
+  version: 18.2.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15857/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: https://github.com/dzienisz/fintrack/blob/main/frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: Krzysztof Czuchra
+  last_updated_on: 2022-11-17 17:12:19.000000000 Z
+- name: eslint-config-prettier
+  description: Turns off all rules that are unnecessary or might conflict with Prettier
+  package_url: https://www.npmjs.com/eslint-config-prettier
+  version: 8.5.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15879/default_0b10af8ca19c215f781dc07442e75bdc831089d0.png
+  detection_source_url: https://github.com/dzienisz/fintrack/blob/main/frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: Krzysztof Czuchra
+  last_updated_on: 2022-11-17 17:12:19.000000000 Z
+- name: eslint-config-react-app
+  description: ESLint configuration used by Create React App
+  package_url: https://www.npmjs.com/eslint-config-react-app
+  version: 6.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16088/default_c7b204838197013798409fa2b4dafce450edc7fb.png
+  detection_source_url: https://github.com/dzienisz/fintrack/blob/main/frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: Krzysztof Czuchra
+  last_updated_on: 2022-11-17 17:12:19.000000000 Z
+- name: eslint-plugin-flowtype
+  description: Flowtype linting rules for ESLint
+  package_url: https://www.npmjs.com/eslint-plugin-flowtype
+  version: 5.10.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15940/default_f49d4c116f8ea0155f4d92673b084378bba02760.png
+  detection_source_url: https://github.com/dzienisz/fintrack/blob/main/frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: Krzysztof Czuchra
+  last_updated_on: 2022-11-17 17:12:19.000000000 Z
+- name: eslint-plugin-import
+  description: Import with sanity
+  package_url: https://www.npmjs.com/eslint-plugin-import
+  version: 2.26.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15806/default_98aa227f51aa9d787815ec3fd98d0ab2bfebbb91.png
+  detection_source_url: https://github.com/dzienisz/fintrack/blob/main/frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: Krzysztof Czuchra
+  last_updated_on: 2022-11-17 17:12:19.000000000 Z
+- name: eslint-plugin-jsx-a11y
+  description: Static AST checker for accessibility rules on JSX elements
+  package_url: https://www.npmjs.com/eslint-plugin-jsx-a11y
+  version: 6.6.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15845/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/dzienisz/fintrack/blob/main/frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: Krzysztof Czuchra
+  last_updated_on: 2022-11-17 17:12:19.000000000 Z
+- name: eslint-plugin-prettier
+  description: Runs prettier as an eslint rule
+  package_url: https://www.npmjs.com/eslint-plugin-prettier
+  version: 3.4.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15896/default_6e6e1d6bb189c8bb26c6410618bd597979578f39.png
+  detection_source_url: https://github.com/dzienisz/fintrack/blob/main/frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: Krzysztof Czuchra
+  last_updated_on: 2022-11-17 17:12:19.000000000 Z
+- name: eslint-plugin-react
+  description: React specific linting rules for ESLint
+  package_url: https://www.npmjs.com/eslint-plugin-react
+  version: 7.31.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15817/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/dzienisz/fintrack/blob/main/frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: Krzysztof Czuchra
+  last_updated_on: 2022-11-17 17:12:19.000000000 Z
+- name: eslint-plugin-react-hooks
+  description: ESLint rules for React Hooks
+  package_url: https://www.npmjs.com/eslint-plugin-react-hooks
+  version: 4.6.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16149/default_1f3a2fc7d882e29a43394ecdf491b8989ea3f0fa.png
+  detection_source_url: https://github.com/dzienisz/fintrack/blob/main/frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: Krzysztof Czuchra
+  last_updated_on: 2022-11-17 17:12:19.000000000 Z
+- name: moment
+  description: Parse, validate, manipulate, and display dates
+  package_url: https://www.npmjs.com/moment
+  version: 2.29.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15847/default_4479dbac220be99e50e724b2df6cf415241d71fd.png
+  detection_source_url: https://github.com/dzienisz/fintrack/blob/main/frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: Krzysztof Czuchra
+  last_updated_on: 2022-11-17 17:12:19.000000000 Z
+- name: nan
+  description: 'Native Abstractions for Node.js: C++ header for Node 0.8 -&gt; 11
+    compatibility'
+  package_url: https://www.npmjs.com/nan
+  version: 2.16.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16178/default_0d450fcd03a0343bb89c9b7c3a8cf092daa8c3b9.png
+  detection_source_url: https://github.com/dzienisz/fintrack/blob/main/frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: Krzysztof Czuchra
+  last_updated_on: 2022-11-17 17:12:19.000000000 Z
+- name: numeral
+  description: Format and manipulate numbers
+  package_url: https://www.npmjs.com/numeral
+  version: 2.0.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16703/default_e3c0987b80983280e46e6e1723fcfcff50fa4824.png
+  detection_source_url: https://github.com/dzienisz/fintrack/blob/main/frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: Krzysztof Czuchra
+  last_updated_on: 2022-11-17 17:12:19.000000000 Z
+- name: prop-types
+  description: Runtime type checking for React props and similar objects
+  package_url: https://www.npmjs.com/prop-types
+  version: 15.8.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15843/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
+  detection_source_url: https://github.com/dzienisz/fintrack/blob/main/frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: Krzysztof Czuchra
+  last_updated_on: 2022-11-17 17:12:19.000000000 Z
+- name: react-dom
+  description: React package for working with the DOM
+  package_url: https://www.npmjs.com/react-dom
+  version: 17.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15808/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/dzienisz/fintrack/blob/main/frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: Krzysztof Czuchra
+  last_updated_on: 2022-11-17 17:12:19.000000000 Z
+- name: react-redux
+  description: Official React bindings for Redux
+  package_url: https://www.npmjs.com/react-redux
+  version: 7.2.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15984/default_f49d4c116f8ea0155f4d92673b084378bba02760.png
+  detection_source_url: https://github.com/dzienisz/fintrack/blob/main/frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: Krzysztof Czuchra
+  last_updated_on: 2022-11-17 17:12:19.000000000 Z
+- name: react-router-dom
+  description: DOM bindings for React Router
+  package_url: https://www.npmjs.com/react-router-dom
+  version: 6.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16025/default_e25d1fbb04a118c79fb444294461417342bd03bf.png
+  detection_source_url: https://github.com/dzienisz/fintrack/blob/main/frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: Krzysztof Czuchra
+  last_updated_on: 2022-11-17 17:12:19.000000000 Z
+- name: react-scripts
+  description: Configuration and scripts for Create React App
+  package_url: https://www.npmjs.com/react-scripts
+  version: 5.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15985/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source_url: https://github.com/dzienisz/fintrack/blob/main/frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: Krzysztof Czuchra
+  last_updated_on: 2022-11-17 17:12:19.000000000 Z
+- name: react-sortable-hoc
+  description: Set of higher-order components to turn any list into a sortable
+  package_url: https://www.npmjs.com/react-sortable-hoc
+  version: 2.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18551/default_9ee31ff0b8de914bd17073075dcd2fcbf11980a7.png
+  detection_source_url: https://github.com/dzienisz/fintrack/blob/main/frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: Krzysztof Czuchra
+  last_updated_on: 2022-11-17 17:12:19.000000000 Z
+- name: rimraf
+  description: A deep deletion module for node
+  package_url: https://www.npmjs.com/rimraf
+  version: 3.0.2
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15807/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/dzienisz/fintrack/blob/main/frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: Krzysztof Czuchra
+  last_updated_on: 2022-11-17 17:12:19.000000000 Z
+- name: shx
+  description: Portable Shell Commands for Node
+  package_url: https://www.npmjs.com/shx
+  version: 0.3.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16496/default_55f3303d620c93eecbee69c43373d484f2be492f.png
+  detection_source_url: https://github.com/dzienisz/fintrack/blob/main/frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: Krzysztof Czuchra
+  last_updated_on: 2022-11-17 17:12:19.000000000 Z
+- name: yup
+  description: Dead simple Object schema validation
+  package_url: https://www.npmjs.com/yup
+  version: 0.32.11
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17215/default_37d9ccc57ae4d32e7ff46614e4f8bb2c4ddc7964.png
+  detection_source_url: https://github.com/dzienisz/fintrack/blob/main/frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: Krzysztof Czuchra
+  last_updated_on: 2022-11-17 17:12:19.000000000 Z
+- name: MediatR.Extensions.Microsoft.DependencyInjection
+  description: MediatR extensions for ASP.NET Core
+  package_url: https://www.nuget.org/MediatR.Extensions.Microsoft.DependencyInjection
+  version: 11.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13395/default_de77a8370e47861dfbe30f06e25c22916ed609b5.png
+  detection_source_url: https://github.com/dzienisz/fintrack/blob/main/backend/Fintrack.WebApi/Fintrack.WebApi.csproj
+  detection_source: backend/Fintrack.WebApi/Fintrack.WebApi.csproj
+  last_updated_by: Krzysztof Czuchra
+  last_updated_on: 2022-11-17 17:12:19.000000000 Z
+- name: Microsoft.AspNetCore.Authentication.JwtBearer
+  description: ASP.NET Core middleware that enables an application to receive an OpenID
+    Connect bearer token
+  package_url: https://www.nuget.org/Microsoft.AspNetCore.Authentication.JwtBearer
+  version: 6.0.10
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12968/default_dd10728859f7e363ef13345d855b2daba48cace4.png
+  detection_source_url: https://github.com/dzienisz/fintrack/blob/main/backend/Fintrack.WebApi/Fintrack.WebApi.csproj
+  detection_source: backend/Fintrack.WebApi/Fintrack.WebApi.csproj
+  last_updated_by: Krzysztof Czuchra
+  last_updated_on: 2022-11-17 17:12:19.000000000 Z
+- name: Microsoft.AspNetCore.Hosting
+  description: ASP.NET Core hosting infrastructure and startup logic for web applications
+  package_url: https://www.nuget.org/Microsoft.AspNetCore.Hosting
+  version: 2.2.7
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12961/default_cd4457378b2b3dee674f43707df49edfbc5c04e5.png
+  detection_source_url: https://github.com/dzienisz/fintrack/blob/main/backend/Fintrack.App/Fintrack.App.csproj
+  detection_source: backend/Fintrack.App/Fintrack.App.csproj
+  last_updated_by: Krzysztof Czuchra
+  last_updated_on: 2022-11-17 17:12:19.000000000 Z
+- name: Microsoft.AspNetCore.SpaServices.Extensions
+  description: Helpers for building single-page applications on ASP.NET MVC Core
+  package_url: https://www.nuget.org/Microsoft.AspNetCore.SpaServices.Extensions
+  version: 6.0.10
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13851/default_e637dea816bab62ca037ba8b354e359bd6438b40.png
+  detection_source_url: https://github.com/dzienisz/fintrack/blob/main/backend/Fintrack.WebApi/Fintrack.WebApi.csproj
+  detection_source: backend/Fintrack.WebApi/Fintrack.WebApi.csproj
+  last_updated_by: Krzysztof Czuchra
+  last_updated_on: 2022-11-17 17:12:19.000000000 Z
+- name: Microsoft.EntityFrameworkCore
+  description: Entity Framework Core is a lightweight and extensible version of the
+    popular Entity Framework data access technology
+  package_url: https://www.nuget.org/Microsoft.EntityFrameworkCore
+  version: 6.0.11
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12852/default_ccf90b566c21ad9eaa59733f297e535ea39fb3b4.png
+  detection_source_url: https://github.com/dzienisz/fintrack/blob/main/backend/Fintrack.Database/Fintrack.Database.csproj
+  detection_source: backend/Fintrack.Database/Fintrack.Database.csproj
+  last_updated_by: Krzysztof Czuchra
+  last_updated_on: 2022-11-17 17:12:19.000000000 Z
+- name: Microsoft.EntityFrameworkCore.InMemory
+  description: In-memory database provider for Entity Framework Core
+  package_url: https://www.nuget.org/Microsoft.EntityFrameworkCore.InMemory
+  version: 6.0.10
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13150/default_81ac985912284073db895b0d26abf3657532a164.png
+  detection_source_url: https://github.com/dzienisz/fintrack/blob/main/backend/Fintrack.Tests/Fintrack.Tests.csproj
+  detection_source: backend/Fintrack.Tests/Fintrack.Tests.csproj
+  last_updated_by: Krzysztof Czuchra
+  last_updated_on: 2022-11-17 17:12:19.000000000 Z
+- name: Microsoft.EntityFrameworkCore.Relational
+  description: Shared Entity Framework Core components for relational database providers
+  package_url: https://www.nuget.org/Microsoft.EntityFrameworkCore.Relational
+  version: 6.0.11
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12914/default_cd4457378b2b3dee674f43707df49edfbc5c04e5.png
+  detection_source_url: https://github.com/dzienisz/fintrack/blob/main/backend/Fintrack.Database/Fintrack.Database.csproj
+  detection_source: backend/Fintrack.Database/Fintrack.Database.csproj
+  last_updated_by: Krzysztof Czuchra
+  last_updated_on: 2022-11-17 17:12:19.000000000 Z
+- name: Microsoft.EntityFrameworkCore.SqlServer
+  description: Microsoft SQL Server database provider for Entity Framework Core
+  package_url: https://www.nuget.org/Microsoft.EntityFrameworkCore.SqlServer
+  version: 6.0.11
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12891/default_4e8402857d2ce7356903ee7422d9b4a0f23cc137.png
+  detection_source_url: https://github.com/dzienisz/fintrack/blob/main/backend/Fintrack.Database/Fintrack.Database.csproj
+  detection_source: backend/Fintrack.Database/Fintrack.Database.csproj
+  last_updated_by: Krzysztof Czuchra
+  last_updated_on: 2022-11-17 17:12:19.000000000 Z
+- name: Microsoft.EntityFrameworkCore.Tools
+  description: Entity Framework Core Tools for the NuGet Package Manager Console in
+    Visual Studio
+  package_url: https://www.nuget.org/Microsoft.EntityFrameworkCore.Tools
+  version: 6.0.11
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13138/default_a057bdad489be3cb053d372a68695da4ac94962d.png
+  detection_source_url: https://github.com/dzienisz/fintrack/blob/main/backend/Fintrack.Database/Fintrack.Database.csproj
+  detection_source: backend/Fintrack.Database/Fintrack.Database.csproj
+  last_updated_by: Krzysztof Czuchra
+  last_updated_on: 2022-11-17 17:12:19.000000000 Z
+- name: MimeKit
+  description: MimeKit is an Open Source library for creating and parsing MIME, S/MIME
+    and PGP messages on desktop and mobile platforms
+  package_url: https://www.nuget.org/MimeKit
+  version: 3.4.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13509/default_a5f7e489f1a0992baa6377c8f765ce325404bce2.png
+  detection_source_url: https://github.com/dzienisz/fintrack/blob/main/backend/Fintrack.App/Fintrack.App.csproj
+  detection_source: backend/Fintrack.App/Fintrack.App.csproj
+  last_updated_by: Krzysztof Czuchra
+  last_updated_on: 2022-11-17 17:12:19.000000000 Z
+- name: NUnit3TestAdapter
+  description: A package including the NUnit 3 TestAdapter for Visual Studio 2012
+    onwards
+  package_url: https://www.nuget.org/NUnit3TestAdapter
+  version: 4.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13216/default_e23dabba1be2c69fbf5fc50bdc46cbffbe6ca2cb.png
+  detection_source_url: https://github.com/dzienisz/fintrack/blob/main/backend/Fintrack.Tests/Fintrack.Tests.csproj
+  detection_source: backend/Fintrack.Tests/Fintrack.Tests.csproj
+  last_updated_by: Krzysztof Czuchra
+  last_updated_on: 2022-11-17 17:12:19.000000000 Z
+- name: Newtonsoft.Json
+  description: Json.NET is a popular high-performance JSON framework for .NET
+  package_url: https://www.nuget.org/Newtonsoft.Json
+  version: 13.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/nuget/image.png
+  detection_source_url: https://github.com/dzienisz/fintrack/blob/main/backend/Fintrack.App/Fintrack.App.csproj
+  detection_source: backend/Fintrack.App/Fintrack.App.csproj
+  last_updated_by: Krzysztof Czuchra
+  last_updated_on: 2022-11-17 17:12:19.000000000 Z
+- name: Quartz
+  description: Quartz Scheduling Framework for .NET
+  package_url: https://www.nuget.org/Quartz
+  version: 3.5.0
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13197/default_43ce02ab18bb400d4d6b410ac4dc3a50f87e634a.png
+  detection_source_url: https://github.com/dzienisz/fintrack/blob/main/backend/Fintrack.App/Fintrack.App.csproj
+  detection_source: backend/Fintrack.App/Fintrack.App.csproj
+  last_updated_by: Krzysztof Czuchra
+  last_updated_on: 2022-11-17 17:12:19.000000000 Z
+- name: Serilog.AspNetCore
+  description: Serilog support for ASP.NET Core logging
+  package_url: https://www.nuget.org/Serilog.AspNetCore
+  version: 6.0.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13194/default_18a92235046d8c8db548cd22b87cf5792dc31759.png
+  detection_source_url: https://github.com/dzienisz/fintrack/blob/main/backend/Fintrack.WebApi/Fintrack.WebApi.csproj
+  detection_source: backend/Fintrack.WebApi/Fintrack.WebApi.csproj
+  last_updated_by: Krzysztof Czuchra
+  last_updated_on: 2022-11-17 17:12:19.000000000 Z
+- name: Serilog.Settings.Configuration
+  description: Microsoft.Extensions.Configuration
+  package_url: https://www.nuget.org/Serilog.Settings.Configuration
+  version: 3.4.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13175/default_b4059c3863f54504d1a911991b5fe93c60e9e43e.png
+  detection_source_url: https://github.com/dzienisz/fintrack/blob/main/backend/Fintrack.WebApi/Fintrack.WebApi.csproj
+  detection_source: backend/Fintrack.WebApi/Fintrack.WebApi.csproj
+  last_updated_by: Krzysztof Czuchra
+  last_updated_on: 2022-11-17 17:12:19.000000000 Z
+- name: Serilog.Sinks.MSSqlServer
+  description: A Serilog sink that writes events to Microsoft SQL Server
+  package_url: https://www.nuget.org/Serilog.Sinks.MSSqlServer
+  version: 6.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/14501/default_f01c1401ca81d7eb7c81dfa95e68b15527495c46.png
+  detection_source_url: https://github.com/dzienisz/fintrack/blob/main/backend/Fintrack.WebApi/Fintrack.WebApi.csproj
+  detection_source: backend/Fintrack.WebApi/Fintrack.WebApi.csproj
+  last_updated_by: Krzysztof Czuchra
+  last_updated_on: 2022-11-17 17:12:19.000000000 Z
+- name: Swashbuckle.AspNetCore
+  description: Swagger tools for documenting APIs built on ASP.NET Core
+  package_url: https://www.nuget.org/Swashbuckle.AspNetCore
+  version: 6.4.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12981/default_aa8a6e377c22dbeff795489a5ab127b1d597b5ed.png
+  detection_source_url: https://github.com/dzienisz/fintrack/blob/main/backend/Fintrack.WebApi/Fintrack.WebApi.csproj
+  detection_source: backend/Fintrack.WebApi/Fintrack.WebApi.csproj
+  last_updated_by: Krzysztof Czuchra
+  last_updated_on: 2022-11-17 17:12:19.000000000 Z
